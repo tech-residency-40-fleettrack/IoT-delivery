@@ -22,3 +22,17 @@ Fleet managers currently lack real-time visibility into vehicle locations, statu
 
 **Core Value Proposition:**
 A centralized dashboard that provides real-time simulated data on fleet vehicles, predictive maintenance alerts, and KPIs for performance, helping managers reduce downtime, cut costs, and improve operational reliability.
+
+**Success Criteria Definition:**
+- Real-time simulated vehicle data available in the dashboard
+- Predictive maintenance alerts visible to managers
+- KPIs (uptime, fuel efficiency, reliability) accessible and understandable
+
+## OBJECTIVES & SUCCESS METRICS (MVP)
+| Objective | Metric of Success |
+| --------- | ----------------- |
+| Provide real-time fleet visibility | Vehicles displayed with simulated location and status updates |
+| Enable predictive maintenance | Alerts generated for vehicles approaching maintenance thresholds |
+| Track fleet performance KPIs | Uptime %, alerts per vehicle, efficiency trends visible in dashboards|
+
+## CORE FEATURES (SCOPE)
