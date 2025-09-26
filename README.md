@@ -59,11 +59,11 @@ Generate alerts when vehicles reach thresholds (mileage, engine health).
 Display key performance metrics such as uptime %, alerts, fuel efficiency.
 
 **Role Responsibilities:**
-Frontend: Visualize KPIs using charts/graphs
-Backend: Aggregate simulated data for reporting
-Data: Compute and log KPI metrics over time
+- Frontend: Visualize KPIs using charts/graphs
+- Backend: Aggregate simulated data for reporting
+- Data: Compute and log KPI metrics over time
 
 ### 4. Nice-to-Haves (If Time Permits)
-Driver profiles with performance metrics
-Export reports (CSV/PDF)
-Mobile responsiveness
+: Driver profiles with performance metrics
+: Export reports (CSV/PDF)
+: Mobile responsiveness
