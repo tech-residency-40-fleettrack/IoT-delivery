@@ -36,3 +36,34 @@ A centralized dashboard that provides real-time simulated data on fleet vehicles
 | Track fleet performance KPIs | Uptime %, alerts per vehicle, efficiency trends visible in dashboards|
 
 ## CORE FEATURES (SCOPE)
+### 1. Real-Time Vehicle Dashboard
+**Description:**
+Dashboard to display all vehicles with simulated live data (location, fuel, health).
+**Role Responsibilities:**
+- Frontend: Build interactive dashboard UI with maps and vehicle cards
+- Backend: Create simulation service generating vehicle data streams
+- Data: Structure vehicle data and store simulated logs
+
+### 2. Predictive Maintenance Alerts
+**Description:**
+Generate alerts when vehicles reach thresholds (mileage, engine health).
+
+**Role Responsibilities:**
+- Frontend: Display alerts in dashboard with severity indicators
+- Backend: Simulate IoT, MQTT
+- Data: Track simulated mileage/health for predictions, Define rules for generating predictive alerts from data
+
+### 3. KPI Dashboard
+
+**Description:**
+Display key performance metrics such as uptime %, alerts, fuel efficiency.
+
+**Role Responsibilities:**
+Frontend: Visualize KPIs using charts/graphs
+Backend: Aggregate simulated data for reporting
+Data: Compute and log KPI metrics over time
+
+### 4. Nice-to-Haves (If Time Permits)
+Driver profiles with performance metrics
+Export reports (CSV/PDF)
+Mobile responsiveness
