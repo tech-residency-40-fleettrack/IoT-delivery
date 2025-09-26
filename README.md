@@ -64,6 +64,6 @@ Display key performance metrics such as uptime %, alerts, fuel efficiency.
 - Data: Compute and log KPI metrics over time
 
 ### 4. Nice-to-Haves (If Time Permits)
-: Driver profiles with performance metrics
-: Export reports (CSV/PDF)
-: Mobile responsiveness
+<p> Driver profiles with performance metrics <br>
+Export reports (CSV/PDF) <br>
+Mobile responsiveness <p>
