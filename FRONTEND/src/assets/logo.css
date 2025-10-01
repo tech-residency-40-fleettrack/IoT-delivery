@@ -1,0 +1,26 @@
+@keyframes pulse {
+  0% {
+    fill-opacity: 1; /* Start fully visible */
+  }
+  50% {
+    fill-opacity: 0.2; /* Fade to 20% opacity */
+  }
+  100% {
+    fill-opacity: 1; /* Return to fully visible */
+  }
+}
+
+#logo:hover #sm {
+  animation: pulse 1.5s infinite;
+  animation-delay: 0s;
+}
+
+#logo:hover #md {
+  animation: pulse 1.5s infinite;
+  animation-delay: 0.3s;
+}
+
+#logo:hover #lg {
+  animation: pulse 1.5s infinite;
+  animation-delay: 0.6s;
+}
