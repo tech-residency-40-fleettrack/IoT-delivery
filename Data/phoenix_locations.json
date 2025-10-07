@@ -1,0 +1,57 @@
+[
+  {
+    "location_id": "Location_1",
+    "address": {
+      "street": "123 Main St",
+      "city": "Phoenix",
+      "state": "AZ",
+      "zip": "85000"
+    },
+    "latitude": 33.4126642094734,
+    "longitude": -112.07944811954908
+  },
+  {
+    "location_id": "Location_2",
+    "address": {
+      "street": "456 Oak Ave",
+      "city": "Tempe",
+      "state": "AZ",
+      "zip": "85001"
+    },
+    "latitude": 33.48875319222395,
+    "longitude": -112.03755148020659
+  },
+  {
+    "location_id": "Location_3",
+    "address": {
+      "street": "789 Pine Rd",
+      "city": "Scottsdale",
+      "state": "AZ",
+      "zip": "85002"
+    },
+    "latitude": 33.40214625788509,
+    "longitude": -112.08301005507717
+  },
+  {
+    "location_id": "Location_4",
+    "address": {
+      "street": "101 Maple Blvd",
+      "city": "Mesa",
+      "state": "AZ",
+      "zip": "85003"
+    },
+    "latitude": 33.41568584255849,
+    "longitude": -112.10992747945114
+  },
+  {
+    "location_id": "Location_5",
+    "address": {
+      "street": "202 Elm St",
+      "city": "Glendale",
+      "state": "AZ",
+      "zip": "85004"
+    },
+    "latitude": 33.41876329329107,
+    "longitude": -112.09583864248516
+  }
+]
