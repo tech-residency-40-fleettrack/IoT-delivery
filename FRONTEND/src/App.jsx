@@ -4,11 +4,12 @@ import './App.css'
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-          <Logo variant={"light"} anim={true} />
+    <div style={{backgroundColor: "#0A2E43"}}>
+          <Logo variant={"dark"} anim={true} />
+    </div>
       
     </>
   )
