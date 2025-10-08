@@ -34,6 +34,7 @@ function Logo({ text=true, variant="light", anim=false }) {
       { text && (
         <>
           <text
+            id ="text1"
             fill={anim ? `url(#gleam)` : theme[variant]}
             style={{
               fontWeight: 600,
@@ -44,27 +45,18 @@ function Logo({ text=true, variant="light", anim=false }) {
               strokeWidth: "8.61968",
             }}
             transform="scale(0.9905749,1.0095148)"
-            id="text2"
             x="-6530.8066"
             y="-2843.9404"
           >
             <tspan
               x="850.6557"
               y="531.65106"
-              id="tspan1"
-              style={{
-                fontStyle: "normal",
-                fontVariant: "normal",
-                fontWeight: "bold",
-                fontFamily: "Inter",
-                letterSpacing: "-2.36022px",
-                strokeWidth: "8.61968",
-              }}
             >
               FleetTrack
             </tspan>
           </text>
           <text
+            id="text2"
             fill={anim ? "url(#gleam)" : theme[variant]}
             style={{
               fontWeight: 600,
