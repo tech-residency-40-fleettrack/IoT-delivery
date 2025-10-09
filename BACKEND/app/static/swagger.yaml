@@ -1,0 +1,103 @@
+#app/static/swagger.yaml
+
+swagger: '2.0'
+info:
+  title: "FleetTrack API"
+  description: "API to manage a FleetTrack application"
+  version: "1.0.0"
+host: "127.0.0.1:5000/api/"
+schemes:
+  - "http"
+consumes:
+  - "application/json"
+produces:
+  - "application/json"
+
+
+
+# =========================
+# Paths
+# =========================
+paths: 
+  
+  /users: #Users CRUD
+    post: 
+      tags:
+        - Users
+      summary: Create a new user
+      description: This endpoint allows you to create a new user.
+      parameters:
+        - in: body
+          name: body
+          description: User object that needs to be added
+          required: true
+          schema:
+            $ref: '#/definitions/UserPayload'
+      responses:
+        201:
+          description: User created successfully
+          schema:
+            $ref: '#/definitions/UserResponse'
+          examples:
+            application/json:
+              
+    get:
+      tags:
+        - Users
+      summary: Retrieve all users
+      description: This endpoint retrieves a list of all users.
+      responses:
+        200:
+          description: A list of users
+          schema:
+            $ref: '#/definitions/UserListResponse'
+          examples:
+            application/json:
+              
+
+# =========================
+# Definitions (Schemas)
+# =========================  
+definitions: 
+  UserPayload:
+    type: object
+    required:
+      - name
+      - phone
+      - email
+      - password
+      - role
+    properties:
+      name:
+        type: string
+        example: "John Doe"
+      phone:
+        type: string
+        example: "6312345678"
+      email:
+        type: string
+        example: "jd@app.com"
+      password:
+        type: string
+        example: "password123"
+      role:
+        type: string
+        example: "manager"
+
+  UserResponse:
+    type: object
+    properties:
+      id:
+        type: integer
+      name:
+        type: string
+      phone:
+        type: string
+      email:
+        type: string
+      role:
+        type: string
+  UserListResponse:
+    type: array
+    items:
+      $ref: '#/definitions/UserResponse'
