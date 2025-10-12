@@ -7,7 +7,7 @@
     "milage":15000.0,
     "fuel_gal":15.0,
     "engine_temp_f":190.0,
-    "destination":"Location_2"
+    "destination":"Location_1"
   },
   {
     "vehicle_id":"c1",
@@ -17,7 +17,7 @@
     "milage":15004.79,
     "fuel_gal":14.81,
     "engine_temp_f":194.75,
-    "destination":"Location_2"
+    "destination":"Location_1"
   },
   {
     "vehicle_id":"c1",
@@ -27,7 +27,7 @@
     "milage":15009.97,
     "fuel_gal":14.6,
     "engine_temp_f":197.75,
-    "destination":"Location_2"
+    "destination":"Location_1"
   },
   {
     "vehicle_id":"c1",
@@ -37,7 +37,7 @@
     "milage":15014.57,
     "fuel_gal":14.42,
     "engine_temp_f":198.53,
-    "destination":"Location_2"
+    "destination":"Location_1"
   },
   {
     "vehicle_id":"c1",
@@ -47,7 +47,7 @@
     "milage":15018.44,
     "fuel_gal":14.26,
     "engine_temp_f":202.86,
-    "destination":"Location_2"
+    "destination":"Location_1"
   },
   {
     "vehicle_id":"c1",
@@ -57,7 +57,7 @@
     "milage":15022.48,
     "fuel_gal":14.1,
     "engine_temp_f":206.4,
-    "destination":"Location_2"
+    "destination":"Location_1"
   },
   {
     "vehicle_id":"c1",
@@ -67,7 +67,7 @@
     "milage":15025.71,
     "fuel_gal":13.97,
     "engine_temp_f":211.25,
-    "destination":"Location_2"
+    "destination":"Location_1"
   },
   {
     "vehicle_id":"c1",
@@ -77,7 +77,7 @@
     "milage":15029.51,
     "fuel_gal":13.82,
     "engine_temp_f":212.31,
-    "destination":"Location_2"
+    "destination":"Location_1"
   },
   {
     "vehicle_id":"c1",
@@ -87,7 +87,7 @@
     "milage":15032.77,
     "fuel_gal":13.69,
     "engine_temp_f":213.23,
-    "destination":"Location_2"
+    "destination":"Location_1"
   },
   {
     "vehicle_id":"c1",
@@ -97,7 +97,7 @@
     "milage":15035.7,
     "fuel_gal":13.57,
     "engine_temp_f":215.85,
-    "destination":"Location_2"
+    "destination":"Location_1"
   },
   {
     "vehicle_id":"c1",
@@ -107,7 +107,7 @@
     "milage":15038.52,
     "fuel_gal":13.46,
     "engine_temp_f":217.31,
-    "destination":"Location_2"
+    "destination":"Location_1"
   },
   {
     "vehicle_id":"c1",
@@ -117,7 +117,7 @@
     "milage":15041.53,
     "fuel_gal":13.34,
     "engine_temp_f":218.0,
-    "destination":"Location_2"
+    "destination":"Location_1"
   },
   {
     "vehicle_id":"c1",
@@ -127,7 +127,7 @@
     "milage":15044.19,
     "fuel_gal":13.23,
     "engine_temp_f":219.84,
-    "destination":"Location_2"
+    "destination":"Location_1"
   },
   {
     "vehicle_id":"c1",
@@ -137,7 +137,7 @@
     "milage":15046.78,
     "fuel_gal":13.13,
     "engine_temp_f":223.76,
-    "destination":"Location_2"
+    "destination":"Location_1"
   },
   {
     "vehicle_id":"c1",
@@ -147,7 +147,7 @@
     "milage":15048.87,
     "fuel_gal":13.05,
     "engine_temp_f":226.33,
-    "destination":"Location_2"
+    "destination":"Location_1"
   },
   {
     "vehicle_id":"c1",
@@ -157,7 +157,7 @@
     "milage":15051.11,
     "fuel_gal":12.96,
     "engine_temp_f":226.56,
-    "destination":"Location_2"
+    "destination":"Location_1"
   },
   {
     "vehicle_id":"c1",
@@ -167,7 +167,7 @@
     "milage":15053.53,
     "fuel_gal":12.86,
     "engine_temp_f":227.42,
-    "destination":"Location_2"
+    "destination":"Location_1"
   },
   {
     "vehicle_id":"c1",
@@ -177,7 +177,7 @@
     "milage":15055.23,
     "fuel_gal":12.79,
     "engine_temp_f":232.16,
-    "destination":"Location_2"
+    "destination":"Location_1"
   },
   {
     "vehicle_id":"c1",
@@ -187,7 +187,7 @@
     "milage":15057.7,
     "fuel_gal":12.69,
     "engine_temp_f":236.2,
-    "destination":"Location_2"
+    "destination":"Location_1"
   },
   {
     "vehicle_id":"c1",
@@ -197,7 +197,7 @@
     "milage":15059.84,
     "fuel_gal":12.61,
     "engine_temp_f":236.69,
-    "destination":"Location_2"
+    "destination":"Location_1"
   },
   {
     "vehicle_id":"c1",
@@ -207,7 +207,7 @@
     "milage":15062.3,
     "fuel_gal":12.51,
     "engine_temp_f":238.89,
-    "destination":"Location_2"
+    "destination":"Location_1"
   },
   {
     "vehicle_id":"c1",
@@ -217,7 +217,7 @@
     "milage":15064.12,
     "fuel_gal":12.44,
     "engine_temp_f":241.37,
-    "destination":"Location_2"
+    "destination":"Location_1"
   },
   {
     "vehicle_id":"c1",
@@ -227,7 +227,7 @@
     "milage":15065.17,
     "fuel_gal":12.39,
     "engine_temp_f":245.92,
-    "destination":"Location_2"
+    "destination":"Location_1"
   },
   {
     "vehicle_id":"c1",
@@ -237,6 +237,6 @@
     "milage":15065.81,
     "fuel_gal":12.37,
     "engine_temp_f":249.23,
-    "destination":"Location_2"
+    "destination":"Location_1"
   }
 ]
