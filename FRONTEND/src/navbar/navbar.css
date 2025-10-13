@@ -1,5 +1,5 @@
 .logo-container {
-  height: clamp(80px, 10vh, 150px); /* scales between min and max */
+  height: clamp(80px, 10vh, 150px); 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,20 +11,20 @@ svg {
 }
 
 .glass-navbar {
-  background-color: rgba(255, 255, 255, 0.15); /* Semi-transparent white */
-  backdrop-filter: blur(10px); /* Apply blur effect */
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Subtle border */
-  border-radius: 10px; /* Rounded corners */
-  padding: 1rem 2rem; /* Adjust padding as needed */
-  margin: 1rem; /* Add some margin for visual separation */
+  background-color: rgba(255, 255, 255, 0.15); 
+  backdrop-filter: blur(10px); 
+  min-height: calc(150px - 1rem);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2); 
+  border-radius: 0.6rem; 
+  padding: 1rem 2rem; 
+  margin: 1rem;
 }
 
-/* Optional: Style Navbar links for better contrast */
 .glass-navbar .nav-link {
-  color: #fffffb; /* White text for links */
-  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Subtle text shadow */
+  color: #fffffb; 
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5); 
 }
 
 .glass-navbar .nav-link:hover {
-  color: #cccccb; /* Lighter color on hover */
+  color: #cccccb; 
 }

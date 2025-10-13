@@ -1,7 +1,7 @@
 import './App.css'
-import { BrowserRouter as Routes, Route } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import Layout from './layout/Layout'
-import Landing from './pages/Landing'
+import Landing from './pages/Home/Landing'
 
 
 
@@ -9,12 +9,11 @@ function App() {
 
   return (
     <div >
-      <Layout>
         <Routes>
-          <Route path="*" element={<Layout />} />
-          <Route index element={<Landing />} />
+          <Route path="*" element={<Layout />} >
+            <Route index element={<Landing />} />
+          </Route>
         </Routes>
-      </Layout>
     </div>
   )
 }

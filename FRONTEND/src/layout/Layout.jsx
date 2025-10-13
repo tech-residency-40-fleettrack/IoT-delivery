@@ -1,16 +1,15 @@
 import { useEffect, useRef, useState } from 'react'
 import { Outlet } from 'react-router-dom'
 import NavBar from "../navbar/components/Navbar";
-import './layout.css'
 import backgroundURL from '/result_splash_background.png?url'
 
 function Layout(){
   const heightRef = useRef(null)
-  const [height, setHeight] = useState(0)
+  const [navbarHeight, setNavbarHeight] = useState(0)
   
   useEffect(() => {
     if (heightRef.current) {
-      setHeight(heightRef.current.offsetHeight)
+      setNavbarHeight(heightRef.currentgetBoundingClientRect().height)
     }
   }, []);
 
@@ -28,7 +27,7 @@ function Layout(){
         }}
       >
         <NavBar ref={heightRef}/>
-        <div id="initialPadding" style={{height: height }} />
+        <div id="initialPadding" style={{paddingTop: '150px' }} />
         <Outlet />
       </main>
     </>
