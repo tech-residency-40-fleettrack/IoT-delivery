@@ -5,7 +5,7 @@
     "longitude":-112.07,
     "speed_mph":30.0,
     "check_engine":0,
-    "milage":45463.24,
+    "odometer":45463.24,
     "fuel_gal":5.24,
     "engine_temp_f":190.0,
     "recorded_at":1696496400000
@@ -16,7 +16,7 @@
     "longitude":-112.03526,
     "speed_mph":28.75,
     "check_engine":0,
-    "milage":45468.03,
+    "odometer":45468.03,
     "fuel_gal":5.08,
     "engine_temp_f":194.75,
     "recorded_at":1696497000000
@@ -27,7 +27,7 @@
     "longitude":-111.98724,
     "speed_mph":31.07,
     "check_engine":0,
-    "milage":45473.21,
+    "odometer":45473.21,
     "fuel_gal":4.91,
     "engine_temp_f":197.75,
     "recorded_at":1696497600000
@@ -38,7 +38,7 @@
     "longitude":-111.99643,
     "speed_mph":27.63,
     "check_engine":0,
-    "milage":45477.81,
+    "odometer":45477.81,
     "fuel_gal":4.75,
     "engine_temp_f":198.53,
     "recorded_at":1696498200000
@@ -49,7 +49,7 @@
     "longitude":-111.97416,
     "speed_mph":23.21,
     "check_engine":0,
-    "milage":45481.68,
+    "odometer":45481.68,
     "fuel_gal":4.63,
     "engine_temp_f":202.86,
     "recorded_at":1696498800000
@@ -60,7 +60,7 @@
     "longitude":-112.01601,
     "speed_mph":24.22,
     "check_engine":0,
-    "milage":45485.72,
+    "odometer":45485.72,
     "fuel_gal":4.49,
     "engine_temp_f":206.4,
     "recorded_at":1696499400000
@@ -71,7 +71,7 @@
     "longitude":-111.97119,
     "speed_mph":19.42,
     "check_engine":0,
-    "milage":45488.95,
+    "odometer":45488.95,
     "fuel_gal":4.38,
     "engine_temp_f":211.25,
     "recorded_at":1696500000000
@@ -82,7 +82,7 @@
     "longitude":-112.0207,
     "speed_mph":22.75,
     "check_engine":0,
-    "milage":45492.75,
+    "odometer":45492.75,
     "fuel_gal":4.26,
     "engine_temp_f":212.31,
     "recorded_at":1696500600000
@@ -93,7 +93,7 @@
     "longitude":-111.97309,
     "speed_mph":19.57,
     "check_engine":0,
-    "milage":45496.01,
+    "odometer":45496.01,
     "fuel_gal":4.15,
     "engine_temp_f":213.23,
     "recorded_at":1696501200000
@@ -104,7 +104,7 @@
     "longitude":-111.95359,
     "speed_mph":17.61,
     "check_engine":0,
-    "milage":45498.94,
+    "odometer":45498.94,
     "fuel_gal":4.05,
     "engine_temp_f":215.85,
     "recorded_at":1696501800000
@@ -115,7 +115,7 @@
     "longitude":-111.97909,
     "speed_mph":16.93,
     "check_engine":0,
-    "milage":45501.76,
+    "odometer":45501.76,
     "fuel_gal":3.96,
     "engine_temp_f":217.31,
     "recorded_at":1696502400000
@@ -126,7 +126,7 @@
     "longitude":-111.97047,
     "speed_mph":18.05,
     "check_engine":0,
-    "milage":45504.77,
+    "odometer":45504.77,
     "fuel_gal":3.86,
     "engine_temp_f":218.0,
     "recorded_at":1696503000000
@@ -137,7 +137,7 @@
     "longitude":-111.92129,
     "speed_mph":15.97,
     "check_engine":0,
-    "milage":45507.43,
+    "odometer":45507.43,
     "fuel_gal":3.77,
     "engine_temp_f":219.84,
     "recorded_at":1696503600000
@@ -148,7 +148,7 @@
     "longitude":-111.94751,
     "speed_mph":15.53,
     "check_engine":0,
-    "milage":45510.02,
+    "odometer":45510.02,
     "fuel_gal":3.68,
     "engine_temp_f":223.76,
     "recorded_at":1696504200000
@@ -159,7 +159,7 @@
     "longitude":-111.92102,
     "speed_mph":12.53,
     "check_engine":0,
-    "milage":45512.11,
+    "odometer":45512.11,
     "fuel_gal":3.61,
     "engine_temp_f":226.33,
     "recorded_at":1696504800000
@@ -170,7 +170,7 @@
     "longitude":-111.90036,
     "speed_mph":13.45,
     "check_engine":0,
-    "milage":45514.35,
+    "odometer":45514.35,
     "fuel_gal":3.54,
     "engine_temp_f":226.56,
     "recorded_at":1696505400000
@@ -181,7 +181,7 @@
     "longitude":-111.88329,
     "speed_mph":14.52,
     "check_engine":0,
-    "milage":45516.77,
+    "odometer":45516.77,
     "fuel_gal":3.46,
     "engine_temp_f":227.42,
     "recorded_at":1696506000000
@@ -192,7 +192,7 @@
     "longitude":-111.88387,
     "speed_mph":10.18,
     "check_engine":0,
-    "milage":45518.47,
+    "odometer":45518.47,
     "fuel_gal":3.4,
     "engine_temp_f":232.16,
     "recorded_at":1696506600000
@@ -203,7 +203,7 @@
     "longitude":-111.87802,
     "speed_mph":14.83,
     "check_engine":0,
-    "milage":45520.94,
+    "odometer":45520.94,
     "fuel_gal":3.32,
     "engine_temp_f":236.2,
     "recorded_at":1696507200000
@@ -214,7 +214,7 @@
     "longitude":-111.86358,
     "speed_mph":12.88,
     "check_engine":0,
-    "milage":45523.08,
+    "odometer":45523.08,
     "fuel_gal":3.25,
     "engine_temp_f":236.69,
     "recorded_at":1696507800000
@@ -225,7 +225,7 @@
     "longitude":-111.89284,
     "speed_mph":14.72,
     "check_engine":0,
-    "milage":45525.54,
+    "odometer":45525.54,
     "fuel_gal":3.16,
     "engine_temp_f":238.89,
     "recorded_at":1696508400000
@@ -236,7 +236,7 @@
     "longitude":-111.89137,
     "speed_mph":10.94,
     "check_engine":0,
-    "milage":45527.36,
+    "odometer":45527.36,
     "fuel_gal":3.1,
     "engine_temp_f":241.37,
     "recorded_at":1696509000000
@@ -247,7 +247,7 @@
     "longitude":-111.86822,
     "speed_mph":6.28,
     "check_engine":0,
-    "milage":45528.41,
+    "odometer":45528.41,
     "fuel_gal":3.07,
     "engine_temp_f":245.92,
     "recorded_at":1696509600000
@@ -258,7 +258,7 @@
     "longitude":-111.87986,
     "speed_mph":3.87,
     "check_engine":0,
-    "milage":45529.05,
+    "odometer":45529.05,
     "fuel_gal":3.05,
     "engine_temp_f":249.23,
     "recorded_at":1696510200000

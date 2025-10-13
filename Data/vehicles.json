@@ -1,35 +1,47 @@
 {
   "vehicles": [
     {
-      "vehicle_id": "McQueen",
+      "vehicle_id": "Car",
       "make": "Kia",
       "model": "Soul",
       "vin": "KNDJP3A56G7459821",
-      "last_service": "2023-07-08",
+      "last_service": {
+        "date": "2023-07-08",
+        "odometer": 40200
+      },
       "odometer": 45200
     },
     {
-      "vehicle_id": "Guido",
+      "vehicle_id": "Scooter",
       "make": "Vespa",
       "model": "Primavera 150",
       "vin": "ZAPM818G2J5204812",
-      "last_service": "2023-08-20",
+      "last_service": {
+        "date": "2023-08-20",
+        "odometer": 5000
+      },
       "odometer": 5200
     },
     {
-      "vehicle_id": "Mack",
+      "vehicle_id": "Van",
       "make": "Mercedes-Benz",
       "model": "Sprinter",
       "vin": "WD3PE8CC7GP352941",
-      "last_service": "2023-09-30",
+      "last_service": {
+        "date": "2023-09-30",
+        "odometer": 120000
+      },
       "odometer": 120500
     },
     {
-      "vehicle_id": "Mater",
+      "vehicle_id": "Truck",
       "make": "Ford",
       "model": "F-150",
       "vin": "1FTFW1E58PKD34827",
-      "last_service": "2023-05-15",
+      "last_service":{
+        "date": "2023-05-15",
+        "odometer": 80000
+      },
       "odometer": 87500
     }
   ]
