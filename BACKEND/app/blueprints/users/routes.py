@@ -1,6 +1,6 @@
 from flask import request, jsonify
 from app.blueprints.users import users_bp
-
+from app.utils.util import  token_required
 
 ## Create user route
 @users_bp.route("/", methods=['POST'])
@@ -17,10 +17,18 @@ def get_users():
 def get_user(user_id):
     return jsonify({"message": f"Get user {user_id} endpoint"}), 200
 
+
 ## Update user route
-@users_bp.route("/<int:user_id>", methods=['PUT'])
-def update_user(user_id):
-    return jsonify({"message": f"Update user {user_id} endpoint"}), 200
+# @users_bp.route("/<int:user_id>", methods=['PUT'])
+# def update_user(user_id):
+#     return jsonify({"message": f"Update user {user_id} endpoint"}), 200
+
+## Update user route
+@users_bp.route("/", methods=['PUT'])
+@token_required
+def update_user():
+    # return jsonify({"test": request.userid}), 200
+    return jsonify({"message": f"Update user {request.userid} endpoint"}), 200
 
 ## Delete user route
 @users_bp.route("/<int:user_id>", methods=['DELETE'])
