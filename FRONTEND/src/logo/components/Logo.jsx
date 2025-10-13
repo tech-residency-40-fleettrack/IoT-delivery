@@ -1,4 +1,4 @@
-import "./logo.css"
+import "../logo.css"
 
 function Logo({ text=true, variant="light", anim=false }) {
   const theme = { "dark": "#fffffb", "light": "#0A2E43" }
@@ -8,8 +8,10 @@ function Logo({ text=true, variant="light", anim=false }) {
       className={anim ? "anim" : ""}
       xmlns="http://www.w3.org/2000/svg"
       viewBox="228 154 2000 662"
-      width="100%"
-      height="auto"
+      style={{
+        width: "100%",
+        height: "100%"
+      }}
       preserveAspectRatio="xMidYMid meet"
     >
       <g fill="#1e9ba6">
@@ -94,10 +96,10 @@ function Logo({ text=true, variant="light", anim=false }) {
       )}
       <defs>
         <linearGradient id="gleam" x1="0%" y1="0%" x2="100%" y2="36%" >
-          <stop offset="0%" stop-color={theme[variant]} />
-          <stop offset="2%" stop-color={variant == "light" ? theme["dark"] : theme["light"]} />
-          <stop offset="20%" stop-color={theme[variant]} />
-          <stop offset="100%" stop-color={theme[variant]} />
+          <stop offset="0%" stopColor={theme[variant]} />
+          <stop offset="2%" stopColor={variant == "light" ? theme["dark"] : theme["light"]} />
+          <stop offset="20%" stopColor={theme[variant]} />
+          <stop offset="100%" stopColor={theme[variant]} />
           <animate attributeName="x1" from="0%" to="200%" dur="3s" repeatCount="indefinite" />
           <animate attributeName="x2" from="100%" to="200%" dur="3s" repeatCount="indefinite" />
         </linearGradient>

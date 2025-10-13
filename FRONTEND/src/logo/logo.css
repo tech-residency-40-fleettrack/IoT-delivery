@@ -12,6 +12,10 @@
   }
 }
 
+text {
+  font-variation-settings: 'wght' 600;
+}
+
 .anim #sm {
   animation: pulse 1.5s infinite;
   animation-delay: 0s;

@@ -1,17 +1,21 @@
-import { useState } from 'react'
-import Logo from './logo/Logo'
 import './App.css'
+import { BrowserRouter as Routes, Route } from 'react-router-dom'
+import Layout from './layout/Layout'
+import Landing from './pages/Landing'
+
 
 
 function App() {
 
   return (
-    <>
-    <div style={{backgroundColor: "#0A2E43"}}>
-          <Logo variant={"dark"} anim={true} />
+    <div >
+      <Layout>
+        <Routes>
+          <Route path="*" element={<Layout />} />
+          <Route index element={<Landing />} />
+        </Routes>
+      </Layout>
     </div>
-      
-    </>
   )
 }
 
