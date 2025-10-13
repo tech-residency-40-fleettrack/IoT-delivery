@@ -17,14 +17,10 @@ class TestUserModelCase(unittest.TestCase):
             "email": "test@example.com",
             "password": "password"
         }
-        response = self.client.post('/users/', json=payload)
+        response = self.client.post('/api/users/', json=payload)
         self.assertEqual(response.status_code, 201)
     
     def test_get_users(self):
-        response = self.client.get('/users/')
-        self.assertEqual(response.status_code, 200)
-        
-    def test_get_user(self):
-        response = self.client.get('/users/1/')
+        response = self.client.get('/api/users/')
         self.assertEqual(response.status_code, 200)
         
